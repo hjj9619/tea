@@ -1,0 +1,131 @@
+doctype html
+html
+  head
+    title 川茶蜀汤-蒙顶绿茶
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='css/bootstrap.min.css')
+    link(rel='stylesheet', href='css/index.css')
+
+
+  body
+    header#header.container.clearfix
+      .wrap
+        #logo.left
+          a(href='index.html')
+            img(src='images/image/logos/logo.png')
+        #nav
+          nav.jquery-menu.clearfix
+            ul.menu
+              li.current
+                a(href="index.html")首页
+              li.parent
+                a(href='javascript:;')蒙顶景区
+                ul
+                  li 天盖寺
+                  li 蒙泉井
+                  li 蒙顶山发展
+              li.parent
+                a(href='javascript:;') 蒙顶茶
+                ul
+                  li 蒙顶茶
+                  li 蒙顶甘露
+                  li 蒙顶黄茶
+                  li 茶的分类
+              li.parent
+                a(href="javascript:;") 茶文化
+                ul
+                  li 龙行十八式
+                  li 茶具
+                  li 茶文化视频
+        //Id Nav End
+    //Header End
+
+    #carte.container
+      #carte-top.row.wrap
+      //#carte-top End
+
+
+      #content-block.row.wrap
+        .row
+          //.separator.col-md-6.top-separator.content.left
+          //.separator.col-md-6.top-separator.content.right
+        #main.content.col-md-6
+          article.article
+            .article-body
+              p
+                span.dropcap 蒙顶山
+                |位于四川盆地西南部，因“雨雾蒙沫”而得名，为青藏高原到川西平原的过渡地带，横亘于名山区城西北侧，山势北高南低，呈东北一西南带状分布，延伸至雅安境内最高峰上清峰，海拔1456米。离四川省省会成都110公里，离雅安市15公里。
+                a
+                  img.left.shadow(src='images/demo/hu.jpg', width="157", height="117")
+              h2 蒙顶山的历史
+              p &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;蒙顶山是我国历史上有文字记载人工种植茶叶最早的地方。从现存世界上关于茶叶最早记载的王褒《童约》和吴理真在蒙山种植茶树的传说， 蒙山有上清、菱角、毗罗、井泉、甘露等五顶，亦称五峰，远眺蒙顶山，五峰突兀，型似莲花， 古人说这里“仰则天风高畅，万象萧瑟；俯则羌水环流，众山罗绕，茶畦杉径，异石奇花，足称名胜”。
+              p
+                a.make-me-btn(href='javascript:;') 巴蜀的“秀、幽、雅”
+              p &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;蒙顶山与峨眉山、青城山并称“蜀中三大历史名山”，自古便有“峨嵋秀，青城幽，蒙顶雅”之说，“峨眉山是普贤菩萨在那里设立道场而成为一座‘佛山’；青城山因张天师在那里修道而成为一座‘道山’；蒙顶山则因女娲在此补天，夏禹治水在此祭天，茶神吴理真在此种茶而成为一座‘神山’”。
+              p
+                a
+                  img.caption.left(src='images/demo/men.jpg', width="110", height="99")
+                a
+                  img.caption.left(src="images/demo/qing.jpg", width="110", height="99")
+                a
+                  img.caption.left(src="images/demo/e.jpg", width="110", height="99")
+
+
+
+        .col-md-6
+          #carousel-example-generic.carousel.slide(data-ride="carousel")
+            ol.carousel-indicators
+              li.active(data-target="#carousel-example-generic" data-slide-to="0")
+              li(data-target="#carousel-example-generic" data-slide-to="1")
+              li(data-target="#carousel-example-generic" data-slide-to="2")
+            .carousel-inner(role="listbox")
+              .item.active
+                img(src='images/demo/slider/1.jpg')
+                .carousel-caption 描述0
+              .item
+                img(src='images/demo/slider/2.jpg')
+                .carousel-caption 描述1
+              .item
+                img(src='images/demo/slider/3.jpg')
+                .carousel-caption 描述2
+
+            a.left.carousel-control(href="#carousel-example-generic", role="button", data-slide="prev")
+              span.glyphicon.glyphicon-chevron-left
+              span.sr-only Previous
+            a.right.carousel-control(href="#carousel-example-generic", role="button", data-slide="next")
+              span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
+              span.sr-only Next
+
+          .module
+            h3
+              span.ribbon 门票信息
+            table
+              tbody
+                tr
+                  td 旺季门票(4 -- 10) :
+                  td
+                    strong 45元
+                tr
+                  td 淡季门票(1 -- 3月) :
+                  td
+                    strong 60元
+                tr
+                  td 儿童身高1.1m一下，70岁以上老人、军官凭证免票
+                tr
+                  td 儿童身高1.1—1.4米， 60-70岁老年人、残疾人、学生凭证半票
+          .separator.clear
+
+
+      // #content-block End
+
+
+
+      #carte-bottom.row.wrap
+        .col-md-6
+          h5 四川广播电视大学 媒体制作部
+      // #carte-bottom End
+    script(src='js/jquery-1.11.0.min.js')
+    script(src='js/bootstrap.min.js')
+    script(src='js/live.js')
+
+
