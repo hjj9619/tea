@@ -27,7 +27,8 @@ module.exports = function(grunt){
       },
       dist: {
         files: {
-          'src/css/index.css':'src/scss/index.scss'
+          'src/css/index.css':'src/scss/index.scss',
+          'src/css/layout.css':'src/scss/layout.scss'
         }
       }
     },
@@ -38,7 +39,8 @@ module.exports = function(grunt){
       },
       target: {
         files: {
-          "dist/css/index.css": "src/css/index.css"
+          "dist/css/index.css": "src/css/index.css",
+          "dist/css/layout.css": "src/css/layout.css"
         }
       }
     },
