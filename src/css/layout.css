@@ -169,12 +169,14 @@ a:-webkit-any-link {
     display: block;
     width: 20px;
     height: 20px;
-    background: orangered;
     position: absolute;
     z-index: 21;
-    text-indent: -1000em;
     right: 5px;
     top: 30px;
+  }
+  .menu-btn span {
+    font-size: 1.5em;
+    color: #fff;
   }
 
   .menu {
