@@ -24,7 +24,6 @@ body {
 
 #header .wrap {
   position: relative;
-  height: 120px;
   padding-bottom: 80px;
   background: url("../images/image/header-highlight-bewitched.jpg") 50% 0 no-repeat;
 }
@@ -119,6 +118,10 @@ a:-webkit-any-link {
   margin: .5em 1.5em 1em 0;
 }
 
+.menu-btn {
+  display: none;
+}
+
 @media (max-width: 991px) {
   #content-block {
     min-height: 400px;
@@ -151,30 +154,49 @@ a:-webkit-any-link {
   }
 }
 @media (max-width: 688px) {
-  #logo {
-    margin: 0;
-    margin-bottom: 30px;
-    background-image: url("");
-  }
-
   #nav {
-    position: static;
     clear: both;
     width: 100%;
     margin-top: 65px;
+    position: relative;
+    margin-left: 20px;
+    margin-right: auto;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .menu-btn {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: orangered;
+    position: absolute;
+    z-index: 21;
+    text-indent: -1000em;
+    right: 5px;
+    top: 30px;
+  }
+
+  .menu {
+    max-height: 0;
+    overflow-y: hidden;
+    height: auto;
   }
 
   .menu > li {
-    width: 100%;
-    position: static;
     z-index: 20;
+    width: 100%;
+    height: auto !important;
     background: url("../images/image/paper.jpg");
   }
 
   #logo {
-    text-indent: -999em;
     height: 60px;
     width: 230px;
-    background: url("../images/image/logos/logo1.png") -10px -15px no-repeat;
+  }
+
+  #header .wrap {
+    background: none;
+    height: 30px;
   }
 }

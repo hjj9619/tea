@@ -99,7 +99,7 @@ module.exports = function(grunt){
           'src/j2s/{,*/}*.js',
           'dist/j2s/{,*/}*.js'
         ],
-        tasks:['sass', 'jade', 'htmlmin', 'cssmin']//, ', 'uglify'connect']
+        tasks:['sass', 'jade', 'htmlmin', 'cssmin', 'uglify']//, ', 'uglify'connect']
       }
     }
   });
