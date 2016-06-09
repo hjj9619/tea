@@ -51,7 +51,8 @@ module.exports = function(grunt){
           collapseWhitespace: true
         },
         files: {                                   // Dictionary of files
-          'dist/index.html': 'src/index.html'     // 'destination': 'source'
+          'dist/index.html': 'src/index.html',     // 'destination': 'source'
+          'dist/tiangai.html': 'src/tiangai.html'     // 'destination': 'source'
         }
       }
     },
@@ -77,7 +78,8 @@ module.exports = function(grunt){
           }
         },
         files: {
-          "src/index.html": "src/index.jade"
+          "src/index.html": "src/index.jade",
+          "src/tiangai.html": "src/tiangai.jade"
         }
       }
     },

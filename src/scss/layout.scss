@@ -116,7 +116,10 @@ a:-webkit-any-link {
 .menu-btn{
   display: none;
 }
-
+#content-block{
+  padding-left:20px;
+  padding-right:20px;
+}
 @media (max-width:991px) {
   #content-block{
     min-height: 400px;
