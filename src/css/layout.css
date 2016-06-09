@@ -2,6 +2,10 @@
   max-width: 960px;
 }
 
+h1 {
+  font-family: 'Microsoft YaHei UI';
+}
+
 li {
   list-style: none;
 }
@@ -218,12 +222,8 @@ hr {
   margin: 15px 0;
 }
 
-/**/
 img.shadow {
   width: 100%;
-}
-
-img {
   padding: 4px;
   margin: 0 auto 20px;
   display: block;
