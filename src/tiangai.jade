@@ -7,7 +7,7 @@ html(lang="en")
     title 川茶蜀汤-蒙顶绿茶
     link(rel='stylesheet', href='css/bootstrap.min.css')
     link(rel='stylesheet', href='css/layout.css')
-    link(rel='stylesheet', href='css/index.css')
+    //link(rel='stylesheet', href='css/index.css')
   body
     header#header.container.clearfix
       .wrap
@@ -22,7 +22,8 @@ html(lang="en")
               li.parent
                 a(href='javascript:;') 蒙顶景区
                 ul
-                  li 天盖寺
+                  li
+                    a(href='tiangai.html') 天盖寺
                   li 蒙泉井
                   li 蒙顶山发展
               li.parent
@@ -81,10 +82,27 @@ html(lang="en")
         hr
 
         .row
+          .col-md-12.indent 从天盖寺后门沿上行走，呈现在眼前的是一排并列有序的碑碣，碑碣上镌刻着著名书法家王学仲、吴丈蜀、王澄、李半黎、和知名画家吴一峰、秦学恭等人手迹，诸体皆备，风格独特，所撰诗文格调高古，形成一个我们现在所看到的典雅的茶诗书法长廊。
+        .row
+          .col-sm-4
+            img.shadow(src='images/demo/tiangai/21.jpg')
+            img.shadow(src='images/demo/tiangai/25.jpg')
+          .col-sm-4
+            img.shadow(src='images/demo/tiangai/22.jpg')
+            img.shadow(src='images/demo/tiangai/24.jpg')
+          .col-sm-4
+            img.shadow(src='images/demo/tiangai/23.jpg')
+            img.shadow(src='images/demo/tiangai/26.jpg')
+        //.row
+          .col-sm-4
+            img.shadow(src='images/demo/tiangai/24.jpg')
+          .col-sm-4
+            img.shadow(src='images/demo/tiangai/25.jpg')
+          .col-sm-4
+            img.shadow(src='images/demo/tiangai/26.jpg')
 
 
-
-      #carte-bottom.row.wrap
+      #carte-bottom.row.wrap(style='background=red')
         .col-md-6
           h5 四川广播电视大学 媒体制作部
       // #carte-bottom End
