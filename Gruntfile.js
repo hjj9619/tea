@@ -52,7 +52,8 @@ module.exports = function(grunt){
         },
         files: {                                   // Dictionary of files
           'dist/index.html': 'src/index.html',     // 'destination': 'source'
-          'dist/tiangai.html': 'src/tiangai.html'     // 'destination': 'source'
+          'dist/tiangai.html': 'src/tiangai.html',     // 'destination': 'source'
+          'dist/mengquan.html': 'src/mengquan.html'     // 'destination': 'source'
         }
       }
     },
@@ -79,7 +80,8 @@ module.exports = function(grunt){
         },
         files: {
           "src/index.html": "src/index.jade",
-          "src/tiangai.html": "src/tiangai.jade"
+          "src/tiangai.html": "src/tiangai.jade",
+          "src/mengquan.html": "src/mengquan.jade"
         }
       }
     },
