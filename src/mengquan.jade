@@ -7,7 +7,6 @@ html(lang="en")
     title 川茶蜀汤-蒙顶绿茶
     link(rel='stylesheet', href='css/bootstrap.min.css')
     link(rel='stylesheet', href='css/layout.css')
-    //link(rel='stylesheet', href='css/index.css')
   body
     header#header.container.clearfix
       .wrap
@@ -49,9 +48,52 @@ html(lang="en")
       #carte-top.row.wrap
       //#carte-top End
       #content-block.row.wrap
+        .row
+          .col-md-6
+            img.left.shadow(src='images/demo/mengjing/5.jpg', width='157', height='170')
+            p
+              span.dropcap 甘露井
+              | 相传为西汉吴理真种茶汲水之处，传说羌江河神之女从此井出入，故又名“龙井”，井侧立有“古蒙泉”和“蒙泉”两碑，均刻于清朝。井后石壁上斗大的“甘露”二字苍劲有力。此井有盖，形如盘龙。在过去年代，历来为逢旱时，虔诚的人们祭祀天神求雨必到之处。
+            div.clearfix
+            hr
+            h2 阴阳麒麟
+            a
+              img.left.shadow(src='images/demo/mengjing/qi.jpg', width='157', height='117')
+            p 阴阳石牌坊，牌坊前有一石屏风，牌坊和屏风均建造于明代天启二年（1622年）。阴阳石麒麟则中间刻有麒麟浮雕，是明代天启二年修甘露灵泉院时，选蒙顶山之特殊石料雕刻而成。屏风背面是仿唐代袁天罡的阴阳图。牌坊为三开门布局，之所以称“阴阳石牌坊”，是因为牌坊右门上方的双狮戏球浮雕常年为干，而左门上方的双凤朝阳浮雕和中门上方的龙凤呈祥浮雕则常年为湿。
+            p 麒麟头顶辽阔之云天，足踏翻腾之海水，据说无论春夏秋冬、天晴下雨，麒麟足以上的部分永远是干的，足则永远是湿的，历尽沧桑，依然如此。
+
+
+
+          .col-md-6
+            #carousel-example-generic.carousel.slide(data-ride="carousel")
+              ol.carousel-indicators
+                li.active(data-target="#carousel-example-generic" data-slide-to="0")
+                li(data-target="#carousel-example-generic" data-slide-to="1")
+                li(data-target="#carousel-example-generic" data-slide-to="2")
+              .carousel-inner(role="listbox")
+                .item.active
+                  img(src='images/demo/mengjing/1.jpg')
+                  .carousel-caption 描述0
+                .item
+                  img(src='images/demo/mengjing/2.jpg')
+                  .carousel-caption 描述1
+                .item
+                  img(src='images/demo/mengjing/3.jpg')
+                  .carousel-caption 描述2
+
+              a.left.carousel-control(href="#carousel-example-generic", role="button", data-slide="prev")
+                span.glyphicon.glyphicon-chevron-left
+                span.sr-only Previous
+              a.right.carousel-control(href="#carousel-example-generic", role="button", data-slide="next")
+                span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
+                span.sr-only Next
+            h3
+              span.ribbon 神奇的图案
+
 
       #carte-bottom.row.wrap
         .col-md-6
           h5 四川广播电视大学 媒体制作部
     script(src='js/jquery-1.11.0.min.js')
+    script(src='js/bootstrap.min.js')
     script(src='js/live.js')
