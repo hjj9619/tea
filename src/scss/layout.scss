@@ -150,9 +150,15 @@ a:-webkit-any-link {
     margin:0 auto;
   }
 }
-
+.menu{
+  display: block;
+}
 
 @media (max-width:688px) {
+  .menu{
+    height:0;
+    overflow-y: hidden;
+  }
   #nav{
     clear:both;
     width:100%;
@@ -177,12 +183,7 @@ a:-webkit-any-link {
       color:#fff;
     }
   }
-  .menu{
-    //max-height:0;
-    display: none;
-    //overflow-y: hidden;
-    height:auto;
-  }
+
   .menu > li{
     z-index: 20;
     width:100%;
