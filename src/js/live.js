@@ -20,7 +20,7 @@ function toggle(obj, fn1, fn2){
 }
 
 toggle($('.menu-btn'), function(){
-  $(".menu").css({display:'block'});
+  $(".menu").css({height:'0'});
 }, function(){
-  $(".menu").css({display: 'none'});
+  $(".menu").css({height: 'auto'});
 })

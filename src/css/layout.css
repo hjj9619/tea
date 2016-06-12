@@ -169,7 +169,16 @@ a:-webkit-any-link {
     margin: 0 auto;
   }
 }
+.menu {
+  display: block;
+}
+
 @media (max-width: 688px) {
+  .menu {
+    height: 0;
+    overflow-y: hidden;
+  }
+
   #nav {
     clear: both;
     width: 100%;
@@ -193,11 +202,6 @@ a:-webkit-any-link {
   .menu-btn span {
     font-size: 1.5em;
     color: #fff;
-  }
-
-  .menu {
-    display: none;
-    height: auto;
   }
 
   .menu > li {
