@@ -28,6 +28,7 @@ module.exports = function(grunt){
       dist: {
         files: {
           'src/css/index.css':'src/scss/index.scss',
+          'src/css/timeline.css':'src/scss/timeline.scss',
           'src/css/layout.css':'src/scss/layout.scss'
         }
       }
@@ -40,7 +41,8 @@ module.exports = function(grunt){
       target: {
         files: {
           "dist/css/index.css": "src/css/index.css",
-          "dist/css/layout.css": "src/css/layout.css"
+          "dist/css/layout.css": "src/css/layout.css",
+          "dist/css/timeline.css": "src/css/timeline.css"
         }
       }
     },
@@ -53,6 +55,7 @@ module.exports = function(grunt){
         files: {                                   // Dictionary of files
           'dist/index.html': 'src/index.html',     // 'destination': 'source'
           'dist/tiangai.html': 'src/tiangai.html',     // 'destination': 'source'
+          'dist/timeline.html': 'src/timeline.html',     // 'destination': 'source'
           'dist/mengquan.html': 'src/mengquan.html'     // 'destination': 'source'
         }
       }
@@ -66,6 +69,7 @@ module.exports = function(grunt){
           'dist/js/bootstrap.min.js': ['src/js/bootstrap.min.js'],
           'dist/js/respond.js': ['src/js/respond.js'],
           'dist/js/live.js': ['src/js/live.js'],
+          'dist/js/timeline.js': ['src/js/timeline.js'],
           'dist/js/jquery-1.11.0.min.js': ['src/js/jquery-1.11.0.min.js']
         }
       }
@@ -81,6 +85,7 @@ module.exports = function(grunt){
         files: {
           "src/index.html": "src/index.jade",
           "src/tiangai.html": "src/tiangai.jade",
+          "src/timeline.html": "src/timeline.jade",
           "src/mengquan.html": "src/mengquan.jade"
         }
       }
