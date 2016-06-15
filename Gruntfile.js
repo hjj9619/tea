@@ -97,17 +97,17 @@ module.exports = function(grunt){
         files: [  //下面文件的改变就会实时刷新网页
           'src/{,*/}*.html',
           'src/{,*/}*.jade',
-          'dist/{,*/}*.html',
-          'dist/{,*/}*.jade',
+          //'dist/{,*/}*.html',
+          //'dist/{,*/}*.jade',
           'src/css/{,*/}*.css',
           'src/scss/{,*/}*.scss',
-          'dist/css/{,*/}*.css',
+          //'dist/css/{,*/}*.css',
           'src/js/{,*/}*.js',
-          'dist/js/{,*/}*.js',
+          //'dist/js/{,*/}*.js',
           'src/j2s/{,*/}*.js',
-          'dist/j2s/{,*/}*.js'
+          //'dist/j2s/{,*/}*.js'
         ],
-        tasks:['sass', 'jade', 'htmlmin', 'cssmin', 'uglify']//, ', 'uglify'connect']
+        tasks:['sass', 'jade', 'htmlmin', 'cssmin', 'uglify']
       }
     }
   });
@@ -127,3 +127,5 @@ module.exports = function(grunt){
 * 5/2
 * 5/28
 * */
+
+

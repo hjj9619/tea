@@ -14,8 +14,6 @@ src/video/
 sass-lint.yml
 *.log
 
-
-
 #*.gitignore
 #*.html
 #            *.a       # 忽略所有 .a 结尾的文件
