@@ -1,0 +1,44 @@
+.box{
+	height:100px;
+	background:orange;
+	width:100px;
+	margin-right: auto;
+	margin-left: auto;
+	h1{
+		line-height: 100px;
+	}
+}
+h1{
+	text-align:center;	
+}
+.text{
+	padding-top: 15px;
+}
+@media (max-width: 720px){
+	.row{
+		padding:0;
+	}
+	.padding{
+		padding-left:0;
+		padding-right:0;
+	}
+	@for $i from 1 through 12 {
+		.col-sm-#{$i}, .col-xs-#{$i}{
+			@extend .padding;
+		}
+	}
+}
+
+@media (max-width: 430px){
+	.box{
+		width:65px;
+		height: 65px;
+		margin-left: auto;
+		margin-right: auto;
+		h1{
+			font-size: 20px;
+			text-align: center;
+			line-height: 65px;
+		}
+	}
+}

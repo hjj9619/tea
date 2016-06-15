@@ -17,7 +17,6 @@ module.exports = function(grunt){
         }
       }
     },
-
     sass: {
       options:{
         //noCache:true,
@@ -128,62 +127,3 @@ module.exports = function(grunt){
 * 5/2
 * 5/28
 * */
-
-/*
-
- uglify:{
- my_target: {
- options: {
- beautify: false
- },
- files: {
- 'dest/js/1.js': ['src/js/1.js'],
- 'dest/js/2.js': ['src/js/2.js'],
- 'dest/js/jquery.min.js': ['src/js/jquery.min.js']
- }
- }
- },
-
-
-
-concat: {
-  /!*options: {
-   separator: ';'
-   },*!/
-  dest:{
-    src: ['dest/js/element.js','dest/js/script.js'],
-        dest:'dest/script.js'
-  }
-},
-imagemin: {                          // Task
-  static: {                          // Target
-    options: {                       // Target options
-      optimizationLevel: 3,
-          svgoPlugins: [{ removeViewBox: false }]
-      //use: [mozjpeg()],
-    }
-  },
-  dynamic: {                         // Another target
-    files: [{
-      expand: true,                  // Enable dynamic expansion
-      cwd: 'src/img/',                   // Src matches are relative to this path
-      src: ['*.{png,jpg,gif}'],   // Actual patterns to match
-      dest: 'dest/'                  // Destination path prefix
-    }]
-  }
-},
-less: {
-  development: {
-    files: {
-      'src/css/styles.css': 'src/less/styles.less'
-    }
-  }
-},
- jshint: {
- files: {
- all: ['src/js/*.js']
- },
-options:{
-  jshintrc: "./.jshintrc"
-}
-},*/

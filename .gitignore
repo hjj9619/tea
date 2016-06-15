@@ -13,8 +13,10 @@ src/video/
 */css/screen.css
 sass-lint.yml
 *.log
-#*.gitignore
 
+
+
+#*.gitignore
 #*.html
 #            *.a       # 忽略所有 .a 结尾的文件
 #            !lib.a    # 但 lib.a 除外
@@ -33,4 +35,4 @@ sass-lint.yml
 #                        *
 #                        !.gitignore
 #    还有一种情况，就是已经commit了，再加入gitignore是无效的，所以需要删除下缓存
-#                        git rm -r --cached ignore_file
+#                        git rm -r --cached ignore_file	
