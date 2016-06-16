@@ -1,20 +1,32 @@
 .box {
   height: 100px;
-  background: orange;
   width: 100px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 50px;
+  color: white;
+  border-radius: 50%;
+  background-color: #00313C;
+  border: solid 3px #fff;
+  box-shadow: 0px 0px 19px -9px #000;
 }
 .box h1 {
   line-height: 100px;
+  margin: 0 !important;
+  z-index: 999;
 }
 
 h1 {
   text-align: center;
 }
 
-.text {
-  padding-top: 15px;
+.one {
+  border: solid 3px #009ABB;
+}
+
+.one-text {
+  display: block !important;
+  margin-left: 0 !important;
 }
 
 @media (max-width: 720px) {
@@ -38,5 +50,102 @@ h1 {
     font-size: 20px;
     text-align: center;
     line-height: 65px;
+  }
+}
+.this {
+  width: 50px;
+  height: 50px;
+  background: orange;
+  position: absolute;
+  top: 110px;
+}
+
+.test {
+  margin-left: 150px;
+  display: none;
+  padding: 10px;
+  background-color: rgba(238, 238, 238, 0.25);
+  border-radius: 8px;
+  border-bottom: solid 3px #009ABB;
+}
+
+.lineLine {
+  height: 650px;
+  width: 17px;
+  position: absolute;
+  left: 110px;
+  top: 100px;
+  box-shadow: inset 0px 0px 7px -2px #000;
+}
+
+.halo {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #009ABB;
+}
+
+/* 
+.line{
+	//position: absolute;
+	height: 200px;
+	width: 20px;
+	background:orangered;
+  margin-left: 105px;
+  margin-top: 100px;
+}*/
+.col-xs-3 {
+  padding-top: 0;
+}
+
+@media (max-width: 991px) {
+  .lineLine {
+    left: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .lineLine {
+    width: 15px;
+  }
+}
+@media (max-width: 719px) {
+  .lineLine {
+    left: 60px;
+  }
+}
+@media (max-width: 686px) {
+  .lineLine {
+    left: 50px;
+    height: 750px;
+  }
+}
+@media (max-width: 616px) {
+  .lineLine {
+    left: 40px;
+    height: 850px;
+  }
+}
+@media (max-width: 469px) {
+  .lineLine {
+    left: 29px;
+    height: 900px;
+  }
+}
+@media (max-width: 390px) {
+  .lineLine {
+    left: 23px;
+    height: 1000px;
+  }
+}
+@media (max-width: 360px) {
+  .lineLine {
+    left: 23px;
+    height: 1081px;
+  }
+}
+@media (max-width: 317px) {
+  .lineLine {
+    left: 23px;
+    height: 1121px;
   }
 }
