@@ -1,5 +1,5 @@
 module.exports = function(grunt){
-
+  require('time-grunt')(grunt);
   require('load-grunt-tasks')(grunt);//加载所有的任务
   grunt.initConfig({
     connect: {
