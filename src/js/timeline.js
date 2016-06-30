@@ -26,22 +26,22 @@ onscroll = function() {
 	if(t >= t1){
 		box[1].style.borderColor = "#009ABB";
 		$('.test').eq(1).fadeIn().animate({marginLeft:0}, 300);
-		$('.halo').animate({height: t1}, 300);
+		//$('.halo').animate({height: t1}, 300);
 	}
 	if(t >= t2){
 		box[2].style.borderColor = "#009ABB";
-		$('.halo').animate({height: t2}, 300);
+		//$('.halo').animate({height: t2}, 300);
 		$('.test').eq(2).fadeIn().animate({marginLeft:0}, 300);
 
 	}
 	if(t >= t3 - 50){
 		box[3].style.borderColor = "#009ABB";
-		$('.halo').animate({height: t3}, 300);
+		//$('.halo').animate({height: t3}, 300);
 		$('.test').eq(3).fadeIn().animate({marginLeft:0}, 300);
 	}
 	if(t >= t4 - 120){
 		box[4].style.borderColor = "#009ABB";
-		$('.halo').animate({height: t4}, 300);
+		//$('.halo').animate({height: t4}, 300);
 		$('.test').eq(4).fadeIn().animate({marginLeft:0}, 300);
 	}
 }

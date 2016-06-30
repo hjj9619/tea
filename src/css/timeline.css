@@ -52,14 +52,6 @@ h1 {
     line-height: 65px;
   }
 }
-.this {
-  width: 50px;
-  height: 50px;
-  background: orange;
-  position: absolute;
-  top: 110px;
-}
-
 .test {
   margin-left: 150px;
   display: none;
@@ -67,6 +59,7 @@ h1 {
   background-color: rgba(238, 238, 238, 0.25);
   border-radius: 8px;
   border-bottom: solid 3px #009ABB;
+  margin-top: 60px;
 }
 
 .lineLine {
@@ -78,13 +71,12 @@ h1 {
   box-shadow: inset 0px 0px 7px -2px #000;
 }
 
-.halo {
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  background-color: #009ABB;
-}
-
+/* .halo{
+	position:absolute;
+	width: 15px;
+	height: 15px;
+	background-color: #009ABB;
+} */
 /* 
 .line{
 	//position: absolute;

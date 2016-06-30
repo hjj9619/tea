@@ -10,12 +10,12 @@ src/video/
 #src/images/Long/
 #dist/images/Long/
 #src/css/template.css
-*/css/ie.css
+*/css/ie.ce4ss
 */css/print.css
 */css/screen.css
 sass-lint.yml
 *.log
-
+*.cache
 .fuse*
 
 
